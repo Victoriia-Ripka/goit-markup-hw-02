@@ -58,7 +58,6 @@ body {
 }
 
 .header-menu-item {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -76,7 +75,6 @@ body {
 }
 
 .header-contacts-item {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -95,7 +93,6 @@ body {
 }
 
 .main-title{
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -115,6 +112,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 /* ---second section---*/
@@ -141,7 +139,6 @@ body {
 }
 
 .peculiarities-item-text{
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -209,7 +206,6 @@ body {
 }
 
 .team-item-job {
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   /* identical to box height */
@@ -237,9 +233,6 @@ body {
 }
 
 .footer-address{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -251,14 +244,16 @@ body {
 }
 
 .footer-contacts-item{
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-contacts-item:hover,
+.footer-contacts-item:focus{
+  color: var(--focus-color-blue);
+}
 /* ---portfolio section---*/
 
 .portf-btn{
@@ -271,6 +266,7 @@ body {
   color: #212121;
   background: #F5F4FA;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .portf-btn:focus,
@@ -297,7 +293,6 @@ body {
 }
 
 .portf-list-item-btn{
-  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   /* identical to box height, or 188% */
