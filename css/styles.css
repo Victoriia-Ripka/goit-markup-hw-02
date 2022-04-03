@@ -88,7 +88,8 @@ body {
 .header-contacts-item:hover,
 .header-contacts-item:focus,
 .header-menu-item:hover,
-.header-menu-item:focus {
+.header-menu-item:focus,
+.header-menu-item:current {
   color: var(--focus-color-blue);
 }
 
@@ -174,7 +175,7 @@ body {
 /* ---forth section---*/
 
 .team{
-  background: var(--color-light-f5f4fa); 
+  background: var(--color-light-f5f4fa);
   color: var()
 }
 
@@ -191,7 +192,7 @@ body {
 }*/
 
 .team-item{
-  color: var(--color-white-ffffff);
+  background-color: var(--color-white-ffffff);
 }
 
 /*.team-item-img{
@@ -230,12 +231,11 @@ body {
   color: var(--color-white-ffffff);
 }
 
-/*.footer-list{
-
-}*/
+.footer-list{
+  font-style: normal;
+}
 
 .footer-address{
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
