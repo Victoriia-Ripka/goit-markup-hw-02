@@ -85,7 +85,7 @@ body {
   color: var(--color-grey-757575);
 }
 
-nav a.active{
+.current{
   color: var(--focus-color-blue);
 } 
 
