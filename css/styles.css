@@ -85,11 +85,14 @@ body {
   color: var(--color-grey-757575);
 }
 
+nav a.active{
+  color: var(--focus-color-blue);
+} 
+
 .header-contacts-item:hover,
 .header-contacts-item:focus,
 .header-menu-item:hover,
-.header-menu-item:focus,
-.header-menu-item:current {
+.header-menu-item:focus{
   color: var(--focus-color-blue);
 }
 
